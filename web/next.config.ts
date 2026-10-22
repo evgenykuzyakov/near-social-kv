@@ -37,15 +37,18 @@ const WALLET_CONNECT = [
   "wss://*.herewallet.app",
   "https://h4n.app",
   "wss://h4n.app",
+  "https://hot-labs.org",
   "https://*.hot-labs.org",
   "wss://*.hot-labs.org",
   "https://*.intear.tech",
   "wss://*.intear.tech",
 ];
 
+// A `*.` wildcard doesn't match the apex domain: HOT's widget is served from hot-labs.org itself.
 const WALLET_FRAMES = [
   "https://*.intear.tech",
   "https://*.herewallet.app",
+  "https://hot-labs.org",
   "https://*.hot-labs.org",
   "https://h4n.app",
   "https://*.meteorwallet.app",
